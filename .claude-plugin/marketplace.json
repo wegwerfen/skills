@@ -1,0 +1,21 @@
+{
+  "name": "wegwerfen-agent-skills",
+  "owner": {
+    "name": "wegwerfen-agent-skills"
+  },
+  "metadata": {
+    "description": "Wegwerfen's skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "all-skills",
+      "description": "Collection of skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./Docker-mcp-builder"
+      ]
+    }
+  ]
+}
